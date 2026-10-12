@@ -1,0 +1,55 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+# Environment files
+.env.*
+!.env.example
+
+# Old dependencies
+/vendor_old/
+
+# Backups and databases
+*.zip
+*.tar
+*.gz
+*.sql
+*.sqlite
+*.sqlite3
+
+# Uploaded files
+/public/uploads/
+
+# Runtime files; keep directory placeholders
+/storage/**
+!/storage/**/
+!/storage/**/.gitignore
+
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Hosting-specific files
+/cgi-bin/
+/.user.ini
+/php.ini
+/test.php
